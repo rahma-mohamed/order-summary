@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    /* text-decoration: none; */
+    color: var(--Bright-blue);
+    font-weight: 900;
+}
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+p{
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url(../Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+body{
+    font-family: 'Red Hat Display';
+    background-color: var(--Pale-blue);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    min-height: 100vh;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    margin: 60px auto 20px;
+    color: var(--Desaturated-blue);
+}
+main{
+  
+    width: 450px;
+    height: 675px;
+    border-radius: 1em;
+    background-color: var(--Very-pale-blue);
+}
+.mainImg{
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    margin-bottom: 25px;
+}
+h1{
+    color: var(--Dark-blue);
+    margin-right: 15px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.pone{
+    color: var(--Desaturated-blue);
+    /* text-align: center; */
+    width: 300px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+article{
+    width: 360px;
+    height: 90px;
+    border-radius: 1em;
+    background-color: hsla(225, 100%, 94%, 0.459);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.done{
+    display: grid;
+    place-content: center;
+}
+.dtow{
+    display: grid;
+    gap: 8px;
+}
+.ptow{
+    color: var(--Dark-blue);
+    font-weight: 900;
+}
+.pthree{
+    font-weight: 500;
+
+    
+    
+}
+.bone{
+    width: 350px;
+    height: 50px;
+    border-radius: 1em;
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    margin-bottom: 40px;
+    box-shadow: 0px 10px 10px 10px hsl(225, 72%, 90%) ;
+}
+.bone:hover{
+    background-color: hsla(245, 75%, 52%, 0.568);
+    cursor: pointer;
+}
+.btwo{
+    background-color: var(--Very-pale-blue);
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+}
+.btwo:hover{
+    cursor: pointer;
+}
